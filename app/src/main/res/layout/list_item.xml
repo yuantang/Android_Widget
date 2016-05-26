@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minHeight="50dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@color/white_a"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:id="@+id/item_titlev"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/txt_color_black"
+            android:visibility="visible"
+            android:text="宝马"
+            />
+
+        <TextView
+            android:id="@+id/item_titlev_code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_titlev"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="X7"
+            android:textColor="@color/txt_color_black" />
+    </RelativeLayout>
+
+    <com.coder.tom.android_widget.CHScrollView
+        android:id="@+id/item_chscroll_scroll"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/rl_datav1"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:visibility="visible"
+                >
+                <TextView
+                    android:id="@+id/item_datav1"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="1.044"
+                    />
+
+                <TextView
+                    android:id="@+id/item_datav5"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_datav1"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="2016-05-04"
+                    android:textColor="@color/gray_tips" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/item_datav2"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:background="@color/white_a"
+                android:textColor="@color/red_status"
+                android:text="1.31%"
+                />
+
+
+            <TextView
+                android:id="@+id/item_datav3"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:background="@color/white"
+                android:textColor="@color/red_status"
+                android:text="11.55%"
+                />
+
+
+            <TextView
+                android:id="@+id/item_datav4"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:background="@color/white_a"
+                android:textColor="@color/black"
+                android:text="321"
+                />
+        </LinearLayout>
+    </com.coder.tom.android_widget.CHScrollView>
+</LinearLayout>
+
