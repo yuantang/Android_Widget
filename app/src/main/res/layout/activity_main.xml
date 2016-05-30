@@ -1,8 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_marginTop="15dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_color_gray"
     android:orientation="vertical"
     >
 
@@ -118,7 +116,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:cacheColorHint="@android:color/transparent"
-        android:divider="@color/white_b"
+        android:divider="@color/white_a"
         android:dividerHeight="1dp"
         android:dividerPadding="1dp"
         android:fadingEdge="none"
