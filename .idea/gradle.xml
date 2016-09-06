@@ -8,15 +8,27 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android_basis" />
+            <option value="$PROJECT_DIR$/android_viewevent" />
+            <option value="$PROJECT_DIR$/androidtips" />
+            <option value="$PROJECT_DIR$/android水波纹特效" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/banner" />
+            <option value="$PROJECT_DIR$/flowlayout" />
+            <option value="$PROJECT_DIR$/view_conflict" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android_basis" />
+            <option value="$PROJECT_DIR$/android_viewevent" />
+            <option value="$PROJECT_DIR$/androidtips" />
+            <option value="$PROJECT_DIR$/android水波纹特效" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/banner" />
+            <option value="$PROJECT_DIR$/flowlayout" />
+            <option value="$PROJECT_DIR$/view_conflict" />
           </set>
         </option>
       </GradleProjectSettings>

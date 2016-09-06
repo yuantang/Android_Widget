@@ -2,12 +2,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#E5E5E5"
     >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:background="#E5E5E5"
         >
         <LinearLayout
             android:id="@+id/product_name_lly"
@@ -116,9 +118,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:cacheColorHint="@android:color/transparent"
-        android:divider="@color/white_a"
         android:dividerHeight="1dp"
-        android:dividerPadding="1dp"
         android:fadingEdge="none"
         android:fadingEdgeLength="0dp"
         android:listSelector="@android:color/transparent"

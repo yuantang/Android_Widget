@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android_Widget.iml" filepath="$PROJECT_DIR$/Android_Widget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_basis/android_basis.iml" filepath="$PROJECT_DIR$/android_basis/android_basis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_viewevent/android_viewevent.iml" filepath="$PROJECT_DIR$/android_viewevent/android_viewevent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidtips/androidtips.iml" filepath="$PROJECT_DIR$/androidtips/androidtips.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android水波纹特效/android水波纹特效.iml" filepath="$PROJECT_DIR$/android水波纹特效/android水波纹特效.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowlayout/flowlayout.iml" filepath="$PROJECT_DIR$/flowlayout/flowlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view_conflict/view_conflict.iml" filepath="$PROJECT_DIR$/view_conflict/view_conflict.iml" />
     </modules>
   </component>
 </project>

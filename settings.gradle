@@ -1,1 +1,1 @@
-include ':app', ':banner'
+include ':app', ':banner', ':flowlayout', ':android_viewevent', ':view_conflict', ':androidtips', ':android水波纹特效', ':android_basis'

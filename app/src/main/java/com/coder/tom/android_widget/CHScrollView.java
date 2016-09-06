@@ -12,7 +12,6 @@ public class CHScrollView extends HorizontalScrollView {
 	public CHScrollView(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 	}
-
 	public CHScrollView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ExpandableListView
+        android:id="@+id/exlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:visibility="visible"
+        >
+    </ExpandableListView>
+    <LinearLayout
+        android:id="@+id/tab_lly"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:background="#E5E5E5"
+        >
+        <LinearLayout
+            android:id="@+id/product_name_lly"
+            android:background="@color/white_a"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/product_name_txt"
+                android:text="产品名称"
+                style="@style/sort_txt_style" />
+        </LinearLayout>
+
+        <com.coder.tom.android_widget.CHScrollView
+            android:id="@+id/item_scroll_title"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_B_1"
+                    style="@style/sort_lly_style"
+                    android:background="@color/white"
+                    >
+                    <TextView
+                        android:id="@+id/tv_B_1"
+                        android:text="当前价"
+                        style="@style/sort_txt_style" />
+                    <ImageView
+                        android:id="@+id/img_B_1"
+                        android:src="@mipmap/arrow_fund_product_sort_desc"
+                        style="@style/sort_img_style"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_B_2"
+                    android:background="@color/white_a"
+                    style="@style/sort_lly_style"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_B_2"
+                        android:text="涨跌幅"
+                        style="@style/sort_txt_style" />
+                    <ImageView
+                        android:id="@+id/img_B_2"
+                        android:src="@mipmap/arrow_fund_product_sort_desc"
+                        style="@style/sort_img_style" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_B_3"
+                    android:background="@color/white"
+                    style="@style/sort_lly_style"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_B_3"
+                        android:text="涨跌额"
+                        style="@style/sort_txt_style" />
+                    <ImageView
+                        android:id="@+id/img_B_3"
+                        android:src="@mipmap/arrow_fund_product_sort_desc"
+                        style="@style/sort_img_style"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_B_4"
+                    android:background="@color/white_a"
+                    style="@style/sort_lly_style">
+
+                    <TextView
+                        android:id="@+id/tv_B_4"
+                        android:text="成交量"
+                        style="@style/sort_txt_style" />
+                    <ImageView
+                        android:id="@+id/img_B_4"
+                        android:src="@mipmap/arrow_fund_product_sort_desc"
+                        style="@style/sort_img_style"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </com.coder.tom.android_widget.CHScrollView>
+
+    </LinearLayout>
+</RelativeLayout>
