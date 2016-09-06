@@ -21,6 +21,7 @@ import butterknife.ButterKnife;
  * Created by tangyuan on 2016/9/5.
  */
 public class Adapter2 extends BaseExpandableListAdapter {
+
     /** 1为乱序，2为降序，3为升序，第一次选择降序排列 */
     private int srot_type_1=1;
     private int srot_type_2=1;
